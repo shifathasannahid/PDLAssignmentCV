@@ -104,19 +104,23 @@ body{
 }
 
 .right-content img{
-    width: 600px;
+    width: 700px;
     position: relative;
     z-index: 12;
 }
 
 .circle img{
-     width: 900px;
-    height: 900px;
+    width: 900px;
+    height: 1050px;
+    
    
     border-radius: 50%;
     position: absolute;
-    bottom: -350px;
-    right: -150px;
+    
+    bottom: -150px;
+   
+   
+    
     z-index: 6;
 }
 
