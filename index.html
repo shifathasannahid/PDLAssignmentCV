@@ -1,230 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Developer Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
+
+    <!-- HEADER -->
     <header class="header">
+
+        <!-- NAVBAR -->
         <nav>
-            <h2 class="nav-title">Shi<span class="text">f</span>at</h2>
+
+            <h2 class="nav-title">
+                Shi<span class="text">f</span>at
+            </h2>
+
             <ul>
+
                 <li>Portfolio</li>
+
                 <li>Blogs</li>
-                <li><button class="btn-all">Hire</button></li>
+
+                <li>
+                    <button class="btn-all">
+                        Hire Me
+                    </button>
+                </li>
+
             </ul>
+
         </nav>
 
-
-      
+        <!-- BANNER -->
         <div class="banner">
-            <div>
-                <h3 class="banner-sub-title">Hi, I am</h3>
-                <h1 class="banner-title">Shifat Hasan Nahid</h1>
-                <p class="banner-description">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <a href="Shifat_CV.pdf" download class="btn-all"><i class="fa-solid fa-download"></i>Download CV</a>
-            </div>
-            <img  src="mypic2-removebg-preview.png" alt="">
-        </div>
-    </header>
-    <main>
-        <section class="about">
-            <h3 class="section-title">About Me</h3>
-            <p class="section-descrip">A passionate Full Stack developer with a growing expertise in C# and ASP.NET, I enjoy building efficient, scalable, and interactive web applications. I thrive in collaborative environments, learn quickly, and am eager to contribute my skills to real-world projects while continuously enhancing my technical abilities.</p>
-            <div class="about-info-con">
-                <div class="about-info">
-                    <p class="info-ti">Name:</p>
-                    <p class="info-descrip">Shifat Hasan Nahid</p>
-                </div>
-                <div class="about-info">
-                    <p class="info-ti">Email:</p>
-                    <p class="info-descrip">shifathasannahid@gmail.com</p>
-                </div>
-                <div class="about-info">
-                    <p class="info-ti">Specialty:</p>
-                    <p class="info-descrip">Asp.Net Developer</p>
-                </div>
-                <div class="about-info">
-                    <p class="info-ti">Location:</p>
-                    <p class="info-descrip">Mirpur,Dhaka</p>
-                </div>
-            </div>
-        </section>
 
+            <div class="banner-content">
 
-      
-        <section class="what-i">
-            <h3 class="section-title">What I Do</h3>
-           
-            <div class="skills-container">
-                <div class="skill">
-                    <img src="./icon/html.png" alt="icon">
-                    <p class="skill-ti">HTML</p>
-                    <p class="skill-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, possimus vel. Consectetur, esse nostrum? Atque?</p>
-                </div>
+                <h3 class="banner-sub-title">
+                    Hi, I am
+                </h3>
 
-                <div class="skill">
-                    <img src="./icon/css.png" alt="">
-                    <p class="skill-ti">CSS</p>
-                    <p class="skill-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, possimus vel. Consectetur, esse nostrum? Atque?</p>
-                </div>
-                
-                <div class="skill">
-                    <img src="./icon/js.png" alt="">
-                    <p class="skill-ti">Vanilla JavaScript</p>
-                    <p class="skill-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, possimus vel. Consectetur, esse nostrum? Atque?</p>
-                </div>
-                <div class="skill">
-                    <img src="./icon/CSharp.png" alt="">
-                    <p class="skill-ti">C#</p>
-                    <p class="skill-description">Iusto minus hic perferendis laudantium deserunt nisi animi. Maiores accusamus ullam inventore vel repellat aspernatur.</p>
-                </div>
-                <div class="skill">
-                    <img src="./icon/Net.png" alt="">
-                    <p class="skill-ti">ASP.Net</p>
-                    <p class="skill-description">Repudiandae quo fugiat sapiente rerum maxime enim adipisci. Pariatur, accusamus molestiae sint neque cum ducimus.</p>
-                </div>
-                
-            </div>
-        </section>
+                <h1 class="banner-title">
+                    Shifat Hasan Nahid
+                </h1>
 
+                <p class="banner-description">
 
-        <!-- Resume -->
-        <section class="resume">
-            <h3 class="section-title">A summary of My Resume</h3>
-            <div class="resume-content">
-                <div>
-                    <h3 class="resume-title">My Education</h3>
-                    <div class="resume-item">
-                        <h4 class="title">B.Sc. in Computer Science and Engineering</h4>
-                        <h5 class="sub-title">Bangladesh University of Business & Technology / 2021 - 2025</h5>
-                        <p class="description">List skill/technologies here. You can change the icon above 
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                    </div>
-                    <hr>
-                    <div class="resume-item">
-                        <h4 class="title">Higher Secondary Certificate(HSC)</h4>
-                        <h5 class="sub-title">Dr. Sekander Ali College / 2018 - 2020</h5>
-                        <p class="description">List skill/technologies here. You can change the icon above 
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                    </div>
-                    <hr>
-                    <div class="resume-item">
-                        <h4 class="title">Secondary School Certificate (SSC)</h4>
-                        <h5 class="sub-title">Nabinagor Adarsha Bidyapith / 2016 - 2018</h5>
-                        <p class="description">List skill/technologies here. You can change the icon above 
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                    </div>
-                </div>
-              
-            </div>
-            <div class="resume-button">
-               <a href="Shifat_CV.pdf" download class="btn-all"><i class="fa-solid fa-download"></i>Download CV</a>
-            </div>
-        </section>
+                    A passionate Full Stack Developer with growing expertise
+                    in C# and ASP.NET.
 
-
-        <!-- contact  -->
-        <section class="contact">
-            <div>
-                <h3 class="section-title">Let's Connect and Address</h3>
-                <div>
-                    <h2><u>Location: </u></h4>
-                    <h3>Mirpur-6,C-Block,Road-2,House-16</h3>
-                </div><br>
-
-                 <div>
-                    <h2><u>Gmail: </u></h4>
-                    <h3>shifathasannahid@gmail.com</h3>
-                </div><br>
-
-                <div>
-                    <h2><u>Contract Number: </u></h4>
-                    <h3>01938627609</h3>
-                </div><br>
-                
-                <p class="section-descrip">
-                    Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
                 </p>
-                <a href="">
-                    <img src="icon/facebook.png" alt="">
+
+                <a href="Shifat_CV.pdf" download class="btn-all">
+
+                    <i class="fa-solid fa-download"></i>
+
+                    Download CV
+
                 </a>
-                <a href="">
-                    <img src="/icon/twitter.png" alt="">
-                </a>
-                <a href="">
-                    <img src="/icon/insta.png" alt="">
-                </a>
+
             </div>
-                <div>
-                  <h3 class="section-title">
-                    Let’s Message me
-                  </h3>
-                         <form id="contact-form">
 
-                                <input type="text" id="name" placeholder="Your Name">
+            <div class="banner-image">
 
-                                <input type="email" id="email" placeholder="Your Email">
+                <img src="mypic2-removebg-preview.png" alt="Profile">
 
-                                <textarea id="message" placeholder="Message"></textarea>
+            </div>
 
-                                <input class="btn-all" type="submit" value="Submit">
+        </div>
 
-                            </form>
+    </header>
 
+    <!-- MAIN -->
+    <main>
 
-                            <div id="show-data"></div>
+        <!-- ABOUT -->
+        <section class="about">
+
+            <h3 class="section-title">
+                About Me
+            </h3>
+
+            <p class="section-descrip">
+
+                A passionate Full Stack developer with growing expertise
+                in C# and ASP.NET.
+
+            </p>
+
+            <div class="about-info-con">
+
+                <div class="about-info">
+
+                    <p class="info-ti">Name:</p>
+
+                    <p class="info-descrip">
+                        Shifat Hasan Nahid
+                    </p>
 
                 </div>
+
+                <div class="about-info">
+
+                    <p class="info-ti">Email:</p>
+
+                    <p class="info-descrip">
+                        shifathasannahid@gmail.com
+                    </p>
+
+                </div>
+
+                <div class="about-info">
+
+                    <p class="info-ti">Specialty:</p>
+
+                    <p class="info-descrip">
+                        ASP.NET Developer
+                    </p>
+
+                </div>
+
+                <div class="about-info">
+
+                    <p class="info-ti">Location:</p>
+
+                    <p class="info-descrip">
+                        Mirpur, Dhaka
+                    </p>
+
+                </div>
+
+            </div>
+
         </section>
+
+        <!-- WHAT I DO -->
+        <section class="what-i">
+
+            <h3 class="section-title">
+                What I Do
+            </h3>
+
+            <div class="skills-container">
+
+                <div class="skill">
+
+                    <img src="./icon/html.png" alt="HTML">
+
+                    <p class="skill-ti">HTML</p>
+
+                    <p class="skill-description">
+                        Build responsive and structured websites.
+                    </p>
+
+                </div>
+
+                <div class="skill">
+
+                    <img src="./icon/css.png" alt="CSS">
+
+                    <p class="skill-ti">CSS</p>
+
+                    <p class="skill-description">
+                        Create modern and beautiful UI designs.
+                    </p>
+
+                </div>
+
+                <div class="skill">
+
+                    <img src="./icon/js.png" alt="JavaScript">
+
+                    <p class="skill-ti">JavaScript</p>
+
+                    <p class="skill-description">
+                        Add interactive functionality to websites.
+                    </p>
+
+                </div>
+
+                <div class="skill">
+
+                    <img src="./icon/CSharp.png" alt="C#">
+
+                    <p class="skill-ti">C#</p>
+
+                    <p class="skill-description">
+                        Develop powerful backend applications.
+                    </p>
+
+                </div>
+
+                <div class="skill">
+
+                    <img src="./icon/Net.png" alt="ASP.NET">
+
+                    <p class="skill-ti">ASP.NET</p>
+
+                    <p class="skill-description">
+                        Build scalable and secure web applications.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- RESUME -->
+        <section class="resume">
+
+            <h3 class="section-title">
+                A Summary of My Resume
+            </h3>
+
+            <div class="resume-content">
+
+                <div>
+
+                    <h3 class="resume-title">
+                        My Education
+                    </h3>
+
+                    <div class="resume-item">
+
+                        <h4 class="title">
+                            B.Sc. in Computer Science & Engineering
+                        </h4>
+
+                        <h5 class="sub-title">
+                            BUBT / 2021 - 2025
+                        </h5>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="resume-item">
+
+                        <h4 class="title">
+                            Higher Secondary Certificate
+                        </h4>
+
+                        <h5 class="sub-title">
+                            Dr. Sekander Ali College / 2018 - 2020
+                        </h5>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="resume-item">
+
+                        <h4 class="title">
+                            Secondary School Certificate
+                        </h4>
+
+                        <h5 class="sub-title">
+                            Nabinagor Adarsha Bidyapith / 2016 - 2018
+                        </h5>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="resume-button">
+
+                <a href="Shifat_CV.pdf" download class="btn-all">
+
+                    <i class="fa-solid fa-download"></i>
+
+                    Download CV
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact">
+
+            <!-- LEFT -->
+            <div>
+
+                <h3 class="section-title">
+                    Let's Connect
+                </h3>
+
+                <div>
+
+                    <h2><u>Location:</u></h2>
+
+                    <h3>Mirpur-6, Dhaka</h3>
+
+                </div>
+
+                <br>
+
+                <div>
+
+                    <h2><u>Email:</u></h2>
+
+                    <h3>shifathasannahid@gmail.com</h3>
+
+                </div>
+
+                <br>
+
+                <div>
+
+                    <h2><u>Contact Number:</u></h2>
+
+                    <h3>01938627609</h3>
+
+                </div>
+
+                <br>
+
+                <p class="section-descrip">
+                    Feel free to contact with me anytime.
+                </p>
+
+                <a href="">
+                    <img src="./icon/facebook.png" alt="">
+                </a>
+
+                <a href="">
+                    <img src="./icon/twitter.png" alt="">
+                </a>
+
+                <a href="">
+                    <img src="./icon/insta.png" alt="">
+                </a>
+
+            </div>
+
+            <!-- RIGHT -->
+            <div>
+
+                <h3 class="section-title">
+                    Message Me
+                </h3>
+
+                <!-- FORM -->
+                <form id="contact-form">
+
+                    <input type="text" id="name" placeholder="Your Name" required>
+
+                    <input type="email" id="email" placeholder="Your Email" required>
+
+                    <textarea id="message" placeholder="Message" required></textarea>
+
+                    <input class="btn-all" type="submit" value="Submit">
+
+                </form>
+
+                <!-- SHOW DATA -->
+                <div id="show-data"></div>
+
+            </div>
+
+        </section>
+
     </main>
-  <script>
+
+    <!-- JAVASCRIPT -->
+    <script>
 
         const form = document.getElementById("contact-form");
 
         const showData = document.getElementById("show-data");
 
-        form.addEventListener("submit", function(e){
+        // PAGE LOAD হলে localStorage এর data show করবে
 
-        e.preventDefault();
+        window.onload = function () {
 
-   
-        const name = document.getElementById("name").value;
+            const savedName = localStorage.getItem("name");
 
-        const email = document.getElementById("email").value;
+            const savedEmail = localStorage.getItem("email");
 
-        const message = document.getElementById("message").value;
+            const savedMessage = localStorage.getItem("message");
 
-        
-         localStorage.setItem("name", name);
+            if (savedName && savedEmail && savedMessage) {
 
-        localStorage.setItem("email", email);
+                showData.innerHTML = `
 
-        localStorage.setItem("message", message);
+                    <div class="saved-data">
 
-   
-         showData.innerHTML = `
-    
-        <h2>Show Data</h2>
+                        <h2>Saved Data</h2>
 
-        <p><b>Name:</b> ${name}</p>
+                        <p><b>Name:</b> ${savedName}</p>
 
-        <p><b>Email:</b> ${email}</p>
+                        <p><b>Email:</b> ${savedEmail}</p>
 
-        <p><b>Message:</b> ${message}</p>
+                        <p><b>Message:</b> ${savedMessage}</p>
 
-        `;
+                    </div>
 
-        alert("Data Saved Successfully!");
+                `;
+            }
+
+        };
+
+        // FORM SUBMIT
+
+        form.addEventListener("submit", function (e) {
+
+            e.preventDefault();
+
+            const name = document.getElementById("name").value;
+
+            const email = document.getElementById("email").value;
+
+            const message = document.getElementById("message").value;
+
+            // SAVE LOCAL STORAGE
+
+            localStorage.setItem("name", name);
+
+            localStorage.setItem("email", email);
+
+            localStorage.setItem("message", message);
+
+            // SHOW DATA
+
+            showData.innerHTML = `
+
+                <div class="saved-data">
+
+                    <h2>Saved Data</h2>
+
+                    <p><b>Name:</b> ${name}</p>
+
+                    <p><b>Email:</b> ${email}</p>
+
+                    <p><b>Message:</b> ${message}</p>
+
+                </div>
+
+            `;
+
+            alert("Data Saved Successfully!");
+
+            form.reset();
 
         });
 
-</script>
+    </script>
+
 </body>
+
 </html>
